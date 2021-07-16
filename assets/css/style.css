@@ -1,0 +1,42 @@
+/* declare variables */
+:root {
+    --primary-dark-col: #333;
+    --primary-light-col: #fff;
+}
+
+/* reset style */
+*, *::before, *::after {
+    background-color: var(--primary-dark-col);
+    color: var(--primary-light-col);
+
+    font: 18px /1.5rem 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* page spacing */
+p, hr {
+    margin-bottom: 1rem;
+}
+
+/* general styling */
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+
+    border-radius: 50%;
+}

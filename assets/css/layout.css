@@ -1,0 +1,35 @@
+/* reset sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* base single column layout */
+html, body {
+    height: 100%;
+    width: 100%;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main, footer {
+    width: 100%;
+    padding: 1rem
+}
+
+/* centralised main content */
+main {
+    max-width: 40rem;
+    margin: 0 auto;
+
+    flex: 1 0 auto;
+}
+
+/* fixed footer */
+footer {
+    flex-shrink: 0;
+}
