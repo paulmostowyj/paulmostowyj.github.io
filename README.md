@@ -1,7 +1,5 @@
-# paulmostowyj.github.io
+# [paulmostowyj.github.io](https://paulmostowyj.github.io)
 my corner of the web
 
 ## version 1.0
-a simple landing page built with:
-- HTML
-- CSS
+a simple landing page built with HTML and CSS
