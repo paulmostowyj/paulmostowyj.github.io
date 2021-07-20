@@ -14,7 +14,7 @@
 }
 
 /* page spacing */
-p, img, hr {
+p, hr {
     margin-bottom: 1rem;
 }
 
@@ -35,7 +35,7 @@ em {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     max-width: 50%;
 
     border-radius: 50%;
