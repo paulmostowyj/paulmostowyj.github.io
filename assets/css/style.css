@@ -14,7 +14,7 @@
 }
 
 /* page spacing */
-p, hr {
+p, img, hr {
     margin-bottom: 1rem;
 }
 
